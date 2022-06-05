@@ -4,13 +4,11 @@
     align-items: center;
     height: 500px;
     width: 500px;
-    /* border: 1px solid black; */
 }
 .row {
     flex: auto;
     width: 500px;
     display: flex;
-    /* border: 1px solid black; */
 }
 .square {
     flex: auto;

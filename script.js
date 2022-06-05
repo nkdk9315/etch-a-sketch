@@ -50,12 +50,13 @@ function coloring () {
     const squares = document.querySelectorAll(".square");
     squares.forEach(square => square.addEventListener("mouseover", () => square.classList.add("hover")));
 }
+//　ランダムなRGBの数字の入った配列を返す
+// function pickRandomColor () {
+//     const RGB = [];
+//     for (let i = 0; i < 3; i++) {
+//         RGB.push(Math.floor(Math.random()*255) + 1);
+//     }
+//     return RGB;
+// }
 
-function pickRandomColor () {
-    const RGB = [];
-    for (let i = 0; i < 3; i++) {
-        RGB.push(Math.floor(Math.random()*255) + 1);
-    }
-    return RGB;
-}
 
